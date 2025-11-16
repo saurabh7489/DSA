@@ -45,10 +45,30 @@
 
 
 // print numer 1 to 5
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     for(int i=1;i<=5;i++){
+//     cout<<i<<"\n";}
+//     return 0;
+// }
+
+// sum of numer from 1 to n
 #include<iostream>
 using namespace std;
 int main(){
-    for(int i=1;i<=5;i++){
-    cout<<i<<"\n";}
+    int n;
+    cout<<"the n number is ";
+    cin>>n;
+     int sum=0 ;
+    for(int i =1;i<=n;i++){
+     
+     sum=sum+i;
+     
+       
+
+    }
+    cout<<sum<<'\n';
     return 0;
+
 }
