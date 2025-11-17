@@ -54,21 +54,41 @@
 // }
 
 // sum of numer from 1 to n
-#include<iostream>
-using namespace std;
-int main(){
-    int n;
-    cout<<"the n number is ";
-    cin>>n;
-     int sum=0 ;
-    for(int i =1;i<=n;i++){
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout<<"the n number is ";
+//     cin>>n;
+//      int sum=0 ;
+//     for(int i =1;i<=n;i++){
      
-     sum=sum+i;
+//      sum=sum+i;
      
        
 
-    }
-    cout<<sum<<'\n';
-    return 0;
+//     }
+//     cout<<sum<<'\n';
+//     return 0;
 
+// }
+
+// sum of all odd number from 1 to n 
+#include<iostream>
+using namespace std;
+int main (){
+    int n;
+    cout<<"enter the no.";
+    cin>>n;
+    int s=0;
+    for (int i=1;i<=n;i++){
+        if(i%2!=0){
+
+     s=s+i;   }
+     else{
+        }
+
+    }
+    cout<<s;
+    return 0;
 }
