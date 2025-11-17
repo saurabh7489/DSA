@@ -74,21 +74,78 @@
 // }
 
 // sum of all odd number from 1 to n 
+// #include<iostream>
+// using namespace std;
+// int main (){
+//     int n;
+//     cout<<"enter the no.";
+//     cin>>n;
+//     int s=0;
+//     for (int i=1;i<=n;i++){
+//         if(i%2!=0){
+
+//      s=s+i;   }
+//      else{
+//         }
+
+//     }
+//     cout<<s;
+//     return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     for(int i=1;i<=5;i++){
+//         cout<<"*****"<<endl;
+//     }
+//     return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     char n='F';
+//     for(int i='A';i<=n;i++){
+//         // cout<<endl;
+//         for (int j='A';j<=n;j++){
+//         // cout<<endl;
+//        cout <<char(j);}cout<<endl;
+//     }
+// return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+//     char n='D';
+//     char num='A';
+//     for(int i='A';i<=n;i++){
+        
+//         for(int j='A';j<=n;j++){
+//         // for (int k=j;k<=n;k++)
+        
+//         cout<<num;
+//         num++;}
+//         cout<<endl;
+//     // }
+    
+    
+    
+// } 
+// }
+
 #include<iostream>
 using namespace std;
-int main (){
-    int n;
-    cout<<"enter the no.";
-    cin>>n;
-    int s=0;
-    for (int i=1;i<=n;i++){
-        if(i%2!=0){
-
-     s=s+i;   }
-     else{
+int main(){
+    int n=4;
+    
+    for(int i=0;i<=n;i++){
+        for(int j=1;j<=i+1;j++){
+            cout<<'*';
+            // st++;
         }
-
+        cout<<endl;
     }
-    cout<<s;
-    return 0;
 }
