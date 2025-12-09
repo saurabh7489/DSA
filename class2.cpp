@@ -288,3 +288,69 @@
 //         cout<<endl;
 //     }
 // }
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int n= 3;
+// int s=1;
+// for(int i=1;i<=n;i++){
+//     for(int j=1;j<=n;j++){
+//         cout<<s;
+//         s++;
+        
+
+//     }cout<<endl;
+// }
+
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n=4;
+//     for(int i=1;i<=n;i++){
+//         for(int j=1;j<=i;j++){
+//             cout<<"*";
+
+//         }cout<<endl;
+//     }
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// cout<<"hello world";
+// }
+
+
+
+
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     cout<<"gaurav"; //isse print hota hai naam
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//  cout<<"hello sannu bhai";
+// }
+
+
+
+
+
+
+
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"yash";
+} 
