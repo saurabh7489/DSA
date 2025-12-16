@@ -37,3 +37,38 @@
 //   int main(){
 //     sum(4);
 //   }
+// #include<iostream>
+// using namespace std;
+// int fact(int n){
+//     int mul=1;
+//     for(int i=1;i<=n;i++){
+//         mul=i*mul;
+        
+//     }
+//     cout<< mul;
+// }
+// int main(){
+//     fact(4);
+// }
+
+// #include<iostream>
+// using namespace std;
+// int digi(int n){
+//     int s=n%10;
+//   n=  n/10;
+//   int j=s+n;
+//   return j;
+// }
+// int main(){
+//     digi(123);
+// }
+
+#include<iostream>
+using namespace std;
+int yz(int n){
+    int sum=0;
+    while(n>0){
+        int ld=n%10;
+        sum
+    }
+}
