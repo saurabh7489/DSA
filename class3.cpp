@@ -65,10 +65,16 @@
 
 #include<iostream>
 using namespace std;
-int yz(int n){
+int digi(int n){
     int sum=0;
     while(n>0){
-        int ld=n%10;
-        sum
+        int s=n%10;
+        n=n/10;
+        sum=sum+s;
+        return sum;
+
     }
+}
+int main(){
+    digi(125);
 }
