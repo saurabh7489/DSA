@@ -377,3 +377,11 @@
 //         // cout<<i;
 //         cout<<endl;}
 //     }
+#include<iostream>
+using namespace std;
+int main(){
+    int n=5;
+    int b =n/2;
+    int c=b;
+    cout<<c;
+}

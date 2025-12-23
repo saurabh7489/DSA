@@ -63,18 +63,68 @@
 //     digi(123);
 // }
 
+// #include<iostream>
+// using namespace std;
+// int digi(int n){
+//     int sum=0;
+//     while(n>0){
+//         int s=n%10;
+//         n=n/10;
+//         sum=sum+s;
+//         // return sum;
+
+//     }
+//     return sum;
+// }
+// int main(){
+//   cout<<  digi(2356);
+//     return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+// int fact(int n,int r){
+//     int mult=1;
+//     int mult1=1;
+//     int mult2=1;
+//     for(int i=n;i>0;i--){
+//         mult=mult*i;
+
+
+//     }
+//     for(int j=r;j>0;j--){
+//         mult1=mult1*j;
+//     }
+//     int a=n-r;
+//     for(int k=a;k>0;k--){
+//         mult2=mult2*k;
+
+//     }
+//   int mult3= mult1*mult2;
+//   cout<<mult/mult3;
+// }
+// int main(){
+//     fact(12,3);
+//     return 0;
+// }
+
 #include<iostream>
 using namespace std;
-int digi(int n){
-    int sum=0;
+int bin(int n){
+    int ans=0; int pow=1;
     while(n>0){
-        int s=n%10;
-        n=n/10;
-        sum=sum+s;
-        return sum;
+       
+        // int ans=0;
+     int re=n%2;
+    n=n/2;
+    ans=ans+(re*pow);
+    // int ans=0;
+    // ans=ans+pa;
+   pow= pow*10;
+}return ans;
 
-    }
 }
 int main(){
-    digi(125);
+   cout<< bin(10);
+
 }
