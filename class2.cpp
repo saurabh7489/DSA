@@ -380,8 +380,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int n=5;
-    int b =n/2;
+    int n=;
+    int b =n/10;
     int c=b;
     cout<<c;
 }

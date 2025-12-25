@@ -108,23 +108,42 @@
 //     return 0;
 // }
 
-#include<iostream>
-using namespace std;
-int bin(int n){
-    int ans=0; int pow=1;
-    while(n>0){
+// #include<iostream>
+// using namespace std;
+// int bin(int n){
+//     int ans=0; int pow=1;
+//     while(n>0){
        
-        // int ans=0;
-     int re=n%2;
-    n=n/2;
-    ans=ans+(re*pow);
-    // int ans=0;
-    // ans=ans+pa;
-   pow= pow*10;
-}return ans;
+//         // int ans=0;
+//      int re=n%2;
+//     n=n/2;
+//     ans=ans+(re*pow);
+//     // int ans=0;
+//     // ans=ans+pa;
+//    pow= pow*10;
+// }return ans;
 
-}
-int main(){
-   cout<< bin(10);
+// }
+// int main(){
+//    cout<< bin(10);
 
-}
+// }
+// #include<iostream>
+// using namespace std;
+// double b(int n){
+//     int pw=1;int one =10;int fans=0;int ans=1;
+//     while(one>0){ 
+//     int rm=n%one;
+//     rm=rm/10;
+//     one=one*10;
+    
+//     ans=ans*(rm*pw);
+//      fans=fans+ans;
+//     pw=pw*2;
+// }
+// return fans;
+// }
+// int main(){
+//     cout<<b(1010);
+//     return 0;
+// }
