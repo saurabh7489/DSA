@@ -384,4 +384,7 @@ int main(){
     int b =n/10;
     int c=b;
     cout<<c;
-}
+} 
+
+TT
+
