@@ -77,27 +77,68 @@
 // }
 
 
+// #include<iostream>
+// using namespace std;
+// int main()
+// {
+// int arr[100]={1,2,5,4};
+// int index=2;
+// int element = 3;
+// int size=4;
+// int capacity=100;
+
+// while(size<capacity){
+//     arr[size+1]=arr[index];
+//     arr[index]=element;
+//     size=size+1;
+//     for(int i=0;i<size;i++){
+//     cout<<arr[i]<<endl;
+// }
+//     return 0;
+// }
+
+
+//     return 0;
+// } // namespace std;
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+// int arr[10]={1,2,3,5,6};
+// int size=5;
+// int index;
+// int element;
+// cin>>index;
+// cin>>element;
+
+// for(int i=size-1;i>=index;i--){
+//     arr[i+1]=arr[i];
+// }
+// size=size+1;
+// arr[index]=element;
+
+// for(int i=0;i<size;i++){
+//     cout<<arr[i];
+// }
+//     return 0;
+// }
+
 #include<iostream>
 using namespace std;
-int main()
-{
-int arr[100]={1,2,5,4};
+int main(){
+int arr[10]={1,2,6,4,5};
+
 int index=2;
-int element = 3;
-int size=4;
-int capacity=100;
+int element=3;
+int size=5;
 
-while(size<capacity){
-    arr[size+1]=arr[index];
-    arr[index]=element;
-    size=size+1;
-    for(int i=0;i<size;i++){
-    cout<<arr[i]<<endl;
-}
-    return 0;
+arr[size]=arr[index];
+
+arr[index]=element;
+size=size+1;
+for(int i=0;i<size;i++){
+    cout<<arr[i];
 }
 
-
     return 0;
-} // namespace std;
-
+}
